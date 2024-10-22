@@ -33,7 +33,7 @@
     "tooltip",
     "dropdown"
   ],
-  "configurations": {
+  "configurations": { 
     "enableStrictMode": true,
     "autoImport": true,
     "treeShaking": true
