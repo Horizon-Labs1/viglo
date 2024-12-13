@@ -52,7 +52,7 @@ export default function Home() {
           <DynamicJoinRevolution />
         </section>
       </Suspense>
-      <Footer />
+      <Footer />    
     </main>
   );
 }
