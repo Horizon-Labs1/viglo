@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/openart-image_f3n-YsTm_1736231910487_raw.jpg-C8QuPQsopNG8KeRVHe1HzUk8ULBAh2.jpeg",
+        url: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/openart-image_f3n-YsTm_1736231910487_raw.jpg",
         width: 1200,
         height: 630,
         alt: "VIGLO Fraud Detection",
@@ -39,23 +39,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>  
+      <head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <link rel="manifest" href="/site.webmanifest" />
-        <link
-          rel="preload"
-          href="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/openart-image_f3n-YsTm_1736231910487_raw.jpg-C8QuPQsopNG8KeRVHe1HzUk8ULBAh2.jpeg"
-          as="image"
-        />
-        <link
-          rel="icon"
-          href="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/openart-image_f3n-YsTm_1736231910487_raw.jpg-C8QuPQsopNG8KeRVHe1HzUk8ULBAh2.jpeg"
-          type="image/jpeg"  
-        />
+        <link rel="icon" href="/favicon.ico" />
       </head>
       <body className={inter.className}>{children}</body>
-    </html> 
+    </html>
   );
-}    
+}
