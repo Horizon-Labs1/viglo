@@ -39,7 +39,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>
+      <head>  
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
@@ -52,10 +52,10 @@ export default function RootLayout({
         <link
           rel="icon"
           href="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/openart-image_f3n-YsTm_1736231910487_raw.jpg-C8QuPQsopNG8KeRVHe1HzUk8ULBAh2.jpeg"
-          type="image/jpeg"
+          type="image/jpeg"  
         />
       </head>
       <body className={inter.className}>{children}</body>
-    </html>
+    </html> 
   );
 }    
