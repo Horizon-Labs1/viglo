@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 import { Suspense } from "react";
 
 /**
- * Dynamically imported components with loading fallbacks and SSR optimizations
+ * Dynamically imported components with loading fallbacks and SSR optimizations.
  */
 const DynamicLiveDashboard = dynamic(
   () => import("./components/LiveDashboard"),
@@ -52,7 +52,7 @@ export default function Home() {
           <DynamicJoinRevolution />
         </section>
       </Suspense>
-      <Footer />    
+      <Footer />
     </main>
   );
 }
