@@ -2,6 +2,7 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 import type { Metadata } from "next";
 import type React from "react";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"], display: "swap" });
 
@@ -48,6 +49,15 @@ export default function RootLayout({
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
         <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXX-X"></Script>
+        <Script id="google-analytics">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-XXXXX-X');
+          `}
+        </Script>
       </head>
       <body className={inter.className}>{children}</body>
     </html>
