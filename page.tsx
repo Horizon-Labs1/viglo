@@ -1,5 +1,5 @@
 /* Includes previous modifications */
-import Head from "next/head";
+import Script from "next/script";
 
 export default function Home() {
   return (
@@ -8,6 +8,15 @@ export default function Home() {
         <title>VIGLO - AI-Powered Insights</title>
         <meta name="description" content="VIGLO provides AI-powered insights for fraud detection on Solana." />
       </Head>
+      <Script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXX-X"></Script>
+      <Script id="google-analytics">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'UA-XXXXX-X');
+        `}
+      </Script>
       <main className="bg-gray-900 text-white overflow-x-hidden">
         <Hero />
         <section id="how-it-works">
