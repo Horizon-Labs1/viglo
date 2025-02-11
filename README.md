@@ -1,6 +1,6 @@
-# VIGLO - AI-Powered Blockchain Security & Analytics
-
 ![VIGLO Banner](https://raw.githubusercontent.com/Horizon-Labs1/viglo/refs/heads/main/Banner.png)
+
+<h1 align="center" style="background-color:#f4f4f4; padding:10px; border-radius:10px;">VIGLO - AI-Powered Blockchain Security & Analytics</h1>
 
 ## Overview
 VIGLO is an advanced AI-driven blockchain security platform that continuously monitors, detects, and mitigates fraudulent activities, smart contract vulnerabilities, and suspicious transactions in decentralized finance (DeFi) and blockchain ecosystems. By leveraging artificial intelligence, real-time analytics, and automated safeguards, VIGLO ensures a safer and more transparent Web3 environment.
